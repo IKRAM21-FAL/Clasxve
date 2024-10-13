@@ -1,0 +1,380 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:"Roboto" sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    
+
+}
+body{
+    background-color: rgb(0, 0, 0);  ;
+}
+ 
+
+
+.falcontainer{
+    width: 100%;
+    display: flex;
+  
+  
+   
+
+}
+
+.FContainer{
+
+    height:5vh;
+   
+    /* justify-content: center;
+    align-items: center; */
+   
+   
+}
+
+
+
+
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+    padding: 30px;
+    height: 50px;
+    background-color: rgb(0, 0, 0); 
+    position: relative;
+    position: fixed;
+    position: -webkit-sticky;
+   z-index: 1000;
+ 
+   
+
+
+}
+
+
+
+.brand{
+    display: flex;
+   
+    font-size: 1.5em;
+    padding: 15px;
+    text-transform: capitalize;
+}
+
+.first{
+    color: rgb(255, 217, 0);
+    font-weight: 850;
+    text-transform: capitalize;
+
+}
+
+.last{
+color: rgb(174, 0, 255);
+font-weight: 650;
+padding-left: 4px;
+}
+.navigation{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    text-transform: capitalize;
+}
+
+.navigation>li {
+list-style-type: none;
+padding: 50px;
+
+}
+
+.navigation>li>a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.active{
+  
+    color:whitesmoke;
+    padding: 15px;
+}
+
+.navigation>li>a:hover {
+    color: rgb(132, 132, 132);
+    transition: all .3s ease-in-out;
+}
+
+.active:hover{
+    color: rgb(192, 0, 199) !important;
+}
+
+.foto{
+    width: 50px;
+    height: 50px;
+   border-radius: 10px;
+}
+
+.foto:hover{
+    width: 60px;
+    height: 60px;
+   border: radius 60px;
+   transition: all .3s ease-in-out;
+}
+
+.falfoto{
+   width: 500px;
+   height: 600px;
+ float: right;
+ 
+
+ 
+
+
+   
+   
+    
+}
+
+.kus{
+    color:rgb(255, 255, 255);
+    background-image: url(p5.jpeg); 
+    background-size:100% 100%;
+    background-position: center ;
+    width:100%;
+   
+   font-size: 20px;
+   height: 150vh;
+
+   
+   
+    
+      
+      
+}.kus img{
+    filter: blur(5px);
+}
+@keyframes animate{
+    from{
+        opacity: 0;
+        transform: translate(0, 100px);
+        filter: blur(25px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translate(0);
+        filter: blur(0);
+     
+    }
+}
+.kus h3{
+   font-size: 50px;
+   cursor: pointer;
+opacity: 0;
+margin: 30px;
+animation: animate 1s ease-in-out 0.6s 1 forwards;
+top: 100px;
+position: relative;
+ 
+   
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+.kus h1{
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  text-transform: capitalize;
+  font-size: 60px;
+position: relative;
+top: 200px;
+  cursor: pointer;
+  opacity: 0;
+  animation: animate 1s ease-in-out 0.6s 1 forwards;
+  padding: 30px;
+  
+
+}
+.utama{
+    height: 100px;
+    width: 90px;
+    cursor: pointer;
+    padding: 42px;
+    
+     font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  text-transform: capitalize;
+  font-size: 60px;
+  position: relative;
+
+opacity: 0;
+animation: animate 1s ease-in-out 0.6s 1 forwards;
+top: 110px;
+color: rgb(255, 251, 0);
+
+
+
+
+
+}
+   
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.klik{
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    top: 70px;
+    position: relative;
+    margin: 50px;
+    padding: 10px;
+   display: flex;
+ width: 115px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transition: all .3s ease-in-out;
+    
+}
+
+
+
+#bout {
+    color: white;
+    width: 100%;
+    padding: 50px;  
+font-size: 50px;
+    display: flex;
+   text-align: center;
+    cursor: pointer;
+    opacity: 0;
+    animation: animate 1s ease-in-out 3.5s 1 forwards;
+    justify-content: space-evenly;
+
+   
+}
+.wrap img{
+    padding: 60px;
+    border-radius: 40px;
+    margin-bottom: 120px
+    
+   
+   
+   
+
+  
+}
+.wrap{
+  width: 95%;
+ 
+
+ 
+}
+.wrap h3{
+    color: white;
+    padding:20px;
+    text-transform: capitalize;
+    font-size: 25px;
+    margin: 90px;
+    margin-top: 1px;
+    text-align: justify;
+    animation: ease-in-out 3s;
+}
+#pik{
+
+    color: white;
+    padding:90px;
+    font-size: 30px;
+    text-align: center;
+justify-content: center;
+text-transform: capitalize;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    width: 95%;
+}
+
+
+.gation{
+    color: white;
+  
+    background-color: orange;
+    height: 400px;
+
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+.lokasi{
+   text-align: center;
+    margin-bottom: 30px;
+   list-style-type: none;
+
+}
+.kontak{
+    margin-bottom: 335px;
+   list-style-type: none;
+   height: 20px;
+
+   
+
+
+}
+.fa-brands{
+    font-size: 15px;
+    margin-top: 30px;
+
+}
+.clx{
+    width: 350px;
+    border: solid 10px rgb(191, 0, 255);
+    border-radius: 25px;
+    margin: 150px;
+    
+}
+.h2{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    list-style-type: none;
+    text-decoration: none;
+
+    
+}
+.zx{
+    width: 500px;
+    border: solid 10px rgb(191, 0, 255);
+    border-radius: 25px;
+    margin: 50px;
+}
+.saki{
+    width: 350px;
+    border: solid 10px rgb(191, 0, 255);
+    border-radius: 25px;
+margin: 150px;
+}
+.gel{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    list-style-type: none;
+    text-decoration: none;
+}
+
